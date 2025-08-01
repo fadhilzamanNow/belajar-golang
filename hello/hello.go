@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"mainan-golang/greeting"
 	"log"
+	"rsc.io/quote/v4"
 )
 
 func main(){
@@ -16,4 +17,6 @@ func main(){
 		log.Fatal(err)
 	}
 	fmt.Println(message);
+
+	fmt.Println(quote.Hello())
 }
